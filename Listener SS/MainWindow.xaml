@@ -1,0 +1,17 @@
+﻿<Window x:Class="Listener_SS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Listener_SS"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Border BorderThickness="10"  Margin="20 15 " BorderBrush="Cyan">
+            <Image x:Name="img" Height="280"/>
+        </Border>
+
+        <Button Height="60" Width="100" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0 15 50 0" Content="Start"  Click="Button_Click"/>
+    </StackPanel>
+
+</Window>
